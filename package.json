@@ -1,8 +1,8 @@
 {
-  "name": "my-first-extension",
-  "displayName": "My first extension",
+  "name": "mal-score-hider",
+  "displayName": "MAL Score Hider",
   "version": "0.0.1",
-  "description": "My first browser extension!",
+  "description": "Hides scores and ratings of shows, movies and manga on myanimelist.net and imdb.com",
   "author": "o2bomb",
   "scripts": {
     "dev": "plasmo dev",
