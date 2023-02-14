@@ -2,6 +2,7 @@
 This browser extension hides scores displayed on myanimelist.net
 
 ![image](https://user-images.githubusercontent.com/41817193/218666431-95a952f8-4430-4741-aa29-303819ced3e1.png)
+![image](https://user-images.githubusercontent.com/41817193/218668351-4b566a11-a296-4bd9-8538-240bbce8ef4a.png)
 
 
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
