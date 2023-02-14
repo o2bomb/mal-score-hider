@@ -1,8 +1,10 @@
 # MAL Score Hider
-This browser extension hides scores displayed on myanimelist.net
+This browser extension hides scores displayed on myanimelist and imdb
 
 ![image](https://user-images.githubusercontent.com/41817193/218666431-95a952f8-4430-4741-aa29-303819ced3e1.png)
 ![image](https://user-images.githubusercontent.com/41817193/218668351-4b566a11-a296-4bd9-8538-240bbce8ef4a.png)
+![image](https://user-images.githubusercontent.com/41817193/218674417-5b57985c-a3c2-4fa7-b548-6034bbe267d0.png)
+![image](https://user-images.githubusercontent.com/41817193/218674296-ebf8fee1-a583-4df1-93fa-b58898108bc1.png)
 
 
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
