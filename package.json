@@ -2,7 +2,7 @@
   "name": "my-first-extension",
   "displayName": "My first extension",
   "version": "0.0.1",
-  "description": "Felix's first browser extension!",
+  "description": "My first browser extension!",
   "author": "o2bomb",
   "scripts": {
     "dev": "plasmo dev",

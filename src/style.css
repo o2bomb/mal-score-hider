@@ -1,0 +1,51 @@
+div.score-label {
+  z-index: 0;
+  position: relative;
+}
+
+div.score-label::after {
+  content: "HOVER TO REVEAL";
+  z-index: 1;
+  position: absolute;
+  top: -6px;
+  left: -4px;
+  right: -4px;
+  bottom: -6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 10px;
+  line-height: 1;
+  background-color: black;
+  color: white;
+  user-select: none;
+}
+
+div.score-label:hover::after {
+  visibility: hidden;
+}
+
+div[data-id="info1"]::after {
+  content: "HOVER TO REVEAL SCORE";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 1;
+  background-color: black;
+  color: white;
+  user-select: none;
+}
+
+div[data-id="info1"]:hover::after {
+  visibility: hidden;
+}
