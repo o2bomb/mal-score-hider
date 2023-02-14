@@ -3,7 +3,9 @@ import type { PlasmoCSConfig } from "plasmo"
 export const config: PlasmoCSConfig = {
   matches: [
     "https://myanimelist.net/anime/*/*",
-    "https://myanimelist.net/manga/*/*"
+    "https://myanimelist.net/manga/*/*",
+    "https://myanimelist.net/anime/season",
+    "https://myanimelist.net/anime/season/"
   ],
   css: ["../style/myanimelist.css"]
 }
