@@ -5,7 +5,7 @@ export const config: PlasmoCSConfig = {
     "https://myanimelist.net/anime/*/*",
     "https://myanimelist.net/manga/*/*"
   ],
-  css: ["style.css"]
+  css: ["../style/myanimelist.css"]
 }
 
 window.addEventListener("load", () => {
