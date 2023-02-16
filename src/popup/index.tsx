@@ -14,17 +14,19 @@ function IndexPopup() {
       },
       function (foundTabs) {
         if (foundTabs.length > 0) {
-          const url = foundTabs[0].url // <--- this is what you are looking for
-          const { hostname } = new URL(url)
-          switch (hostname) {
-            case "imdb.com":
-            case "www.imdb.com":
-            case "myanimelist.net":
-            case "www.myanimelist.net":
-              setIsEnabled(true)
+          const url = foundTabs[0].url
+          try {
+            const { hostname } = new URL(url)
+            switch (hostname) {
+              case "imdb.com":
+              case "www.imdb.com":
+              case "myanimelist.net":
+              case "www.myanimelist.net":
+                setIsEnabled(true)
+            }
+          } catch (e) {
+            console.warn("Failed to parse active tab URL:", e)
           }
-        } else {
-          // there's no window or no selected tab
         }
       }
     )
