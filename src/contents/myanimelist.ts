@@ -5,9 +5,11 @@ export const config: PlasmoCSConfig = {
     "https://myanimelist.net/anime/*/*",
     "https://myanimelist.net/manga/*/*",
     "https://myanimelist.net/anime/season",
-    "https://myanimelist.net/anime/season/"
+    "https://myanimelist.net/anime/season/",
+    "https://myanimelist.net/anime/season?*"
   ],
-  css: ["../style/myanimelist.css"]
+  css: ["../style/myanimelist.css"],
+  run_at: "document_start" // must specify this for scripts and css injection to work in firefox
 }
 
 window.addEventListener("load", () => {
