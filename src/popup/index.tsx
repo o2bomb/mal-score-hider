@@ -3,6 +3,8 @@ import MALFaviconPNG from "data-base64:../assets/mal_favicon.png"
 import { useEffect, useState } from "react"
 import styled from "styled-components"
 
+import "./index.css"
+
 function IndexPopup() {
   const [isEnabled, setIsEnabled] = useState(false)
 
